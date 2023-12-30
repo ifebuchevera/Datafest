@@ -216,7 +216,7 @@ const Navbar = () => {
   </h1>
   <div className="text-[#808080]">
     <span className="text-[#333333] font-bold">
-    DSNUNNSummit 2024 </span> is a comprehensive event spotlighting diverse careers in Africa's data space. Designed to connect professionals, students, and enthusiasts, it serves as a platform for learning, networking, and collaboration. The summit features a range of activities, with a particular emphasis on the <span className="text-[#333333] font-bold">hackathon</span>  organized by  <span className="text-[#333333] font-bold">Data Scientists Network UNN(DSN)</span>. Participants can expect engaging sessions, hands-on workshops, and networking opportunities, all geared towards fostering community-driven engagement. <span className="text-[#333333] font-bold">DSNUNNSummit</span> is an essential gathering for those looking to explore, learn, and contribute to the dynamic field of data and technology in Africa. 
+    DSNUNNSummit 2024 </span> is a comprehensive event spotlighting diverse careers in Africa&apos;s data space. Designed to connect professionals, students, and enthusiasts, it serves as a platform for learning, networking, and collaboration. The summit features a range of activities, with a particular emphasis on the <span className="text-[#333333] font-bold">hackathon</span>  organized by  <span className="text-[#333333] font-bold">Data Scientists Network UNN(DSN)</span>. Participants can expect engaging sessions, hands-on workshops, and networking opportunities, all geared towards fostering community-driven engagement. <span className="text-[#333333] font-bold">DSNUNNSummit</span> is an essential gathering for those looking to explore, learn, and contribute to the dynamic field of data and technology in Africa. 
   </div>
   <div className="flex  items-center md:flex-row flex-col  ">
 
@@ -238,10 +238,11 @@ const Navbar = () => {
 <Image src="/img/about.svg" alt="people" width="10" height="10" className='lg:w-auto w-full '/>
 </div>
 <div className="xl:w-1/2 w-full">
-  <h2 className="text-[#009933] leading-[47.73px] font-bold text-[40px]">
+  <h2 className="text-[#009933] leading-[47.73px] font-bold text-[40px] tracking-[-2%]">
     Schedule & Agenda
 
   </h2>
+
 </div>
   </div>
 </div>
