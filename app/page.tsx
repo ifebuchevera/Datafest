@@ -162,13 +162,13 @@ const Navbar = () => {
             </button></p>
         </div>
        </div>
-       <div className="flex items-center text-left text-[20px] leading-[23.87px] tracking[2%]">
+       <div className="flex lg:flex-row  flex-row-reverse  items-center text-[20px] leading-[23.87px] text-right tracking[2%]">
+      <div className="mx-3 flex md:flex-col flex-row">
+     <p className="text-[#333333]">Freedom Square</p> 
+     <p className="text-left">University Of Nigeria <br className="md:hidden flex" />Nsukka</p> 
          <p className="">
       <Image src="/img/location.svg" width="10" height="10" alt="clock" className='w-auto'/>
       </p>
-      <div className="md:mx-3 flex">
-     <p className="text-[#333333]">Freedom Square</p> 
-     <p className="text-left">University Of Nigeria <br className="md:hidden flex" />Nsukka</p> 
       </div>
      
     </div>
