@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav{
+  font-size: 16px;
+}
+  .dropdown-container {
+    position: absolute;
+    
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+
+  .dropdown-item {
+    /* Add your existing styles for dropdown items here */
+    /* Example: */
+    margin-top: 30px;
+
+    color: #808080;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+
