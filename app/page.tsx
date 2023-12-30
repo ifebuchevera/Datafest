@@ -123,7 +123,7 @@ const Navbar = () => {
         </div>
       </div>
     </nav> 
-    <div className="mx-3">
+    <div className="mx-10">
     <div className="flex justify-center items-center ">
   <div className="xl:text-center  xl:text-[104px] tracking-[2px] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
     <span className=" text-[#FE0000]">Data Scientist Network </span>
@@ -134,12 +134,13 @@ const Navbar = () => {
   <div className="flex justify-center items-center font-normal xl:text-[28px] lg:text-[24px] lg:leading-[40px] text-[20px] leading-[32px] xl:leading-[44px] lg:text-center text-[#808080] my-5 ">
     DSNUNNSummit highlights diverse careers in the African data space, catering to all level of professionals such as Data Analysts, Scientists, Engineers, AI/ML Engineers, Low Code Developers, Students, Administrators, Researchers, and Recruiters. It&apos;s the perfect event for you.
   </div> 
-  <div className="flex items-center justify-evenly  md:flex-row flex-col bg-[#F9FFFB] py-2 rounded-2xl">
-    <div className="flex lg:flex-row  flex-row-reverse  items-center text-[20px] leading-[23.87px] text-right tracking[2%]">
+      </div> 
+  <div className="flex lg:mx-10 mx-0 items-center justify-evenly space-2  md:flex-row flex-col bg-[#F9FFFB] py-2 rounded-[24px] xl:rounded-[1000px]">
+    <div className="flex my-2 lg:flex-row  flex-row-reverse  items-center text-[20px] leading-[23.87px] text-right tracking[2%]">
       <div className="mx-3 flex md:flex-col flex-row">
 
-     <p className="text-[#333333]">Saturday 12th</p> 
-     <p className="">January 2024</p> 
+     <p className="text-[#333333]">Saturday 12th,</p> 
+     <p className="">Jan 2024</p> 
       </div>
      <p className="">
       <Image src="/img/date.svg" width="10" height="10" alt="clock" className='w-auto'/>
@@ -147,14 +148,14 @@ const Navbar = () => {
     </div>
     <div className="flex  items-center lg:flex-row flex-col  ">
 
-       <div className="flex mx-2">
+       <div className="flex mx-2 my-2">
           <p className=''>
             <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
             Register as an attendee
             <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2'/>
             </button></p>
         </div>
-        <div className="flex mx-2 ">
+        <div className="flex mx-2 my-2 ">
           <p className=''>
             <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
             Join a community
@@ -162,18 +163,41 @@ const Navbar = () => {
             </button></p>
         </div>
        </div>
-       <div className="flex lg:flex-row  flex-row-reverse  items-center text-[20px] leading-[23.87px] text-right tracking[2%]">
-      <div className="mx-3 flex md:flex-col flex-row">
-     <p className="text-[#333333]">Freedom Square</p> 
-     <p className="text-left">University Of Nigeria <br className="md:hidden flex" />Nsukka</p> 
+       <div className="flex  flex-row-reverse my-2 items-center text-[20px] leading-[23.87px] text-left tracking[2%]">
+      <div className="mx-3 flex md:flex-col flex-row w-fit">
+     <p className="text-[#333333] w-fit">Freedom Square</p> 
+     <p className="text-left w-fit mx-2">UNN</p> 
+      </div>
          <p className="">
       <Image src="/img/location.svg" width="10" height="10" alt="clock" className='w-auto'/>
       </p>
-      </div>
      
     </div>
   </div>
-      </div> 
+  <div className="flex md:flex-row flex-col justify-center items-center mx-10 ">
+
+
+  <Image src="/img/imgA.svg" alt="people" width="10" height="10" className='lg:w-auto w-full mx-2'/>
+
+
+  <div className="flex flex-col  lg:w-auto w-full mx-2">
+  <Image src="/img/imgB.svg" alt="people" width="10" height="10" className='xl:m-0 m-2 lg-w-auto w-[100%]'/>
+  <div className="flex ">
+
+  <Image src="/img/imgC.svg" alt="people" width="10" height="10" className='lg:w-auto w-full m-2'/>
+
+
+  <Image src="/img/imgD.svg" alt="people" width="10" height="10" className='lg:w-auto w-full m-2'/>
+  </div>
+
+  </div>
+
+
+  <Image src="/img/imgE.svg" alt="people" width="10" height="10" className='lg:w-auto w-full mx-2'/>
+
+
+</div>
+
     </main>
    
   );
