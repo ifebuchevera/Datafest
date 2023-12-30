@@ -132,7 +132,7 @@ const Navbar = () => {
   </div>
 </div>
   <div className="flex justify-center items-center font-normal xl:text-[28px] lg:text-[24px] lg:leading-[40px] text-[20px] leading-[32px] xl:leading-[44px] lg:text-center text-[#808080] my-5 ">
-    DSNUNNSummit highlights diverse careers in the African data space, catering to all level of professionals such as Data Analysts, Scientists, Engineers, AI/ML Engineers, Low Code Developers, Students, Administrators, Researchers, and Recruiters. It's the perfect event for you.
+    DSNUNNSummit highlights diverse careers in the African data space, catering to all level of professionals such as Data Analysts, Scientists, Engineers, AI/ML Engineers, Low Code Developers, Students, Administrators, Researchers, and Recruiters. It&apos;s the perfect event for you.
   </div> 
   <div className="flex items-center justify-evenly  md:flex-row flex-col bg-[#F9FFFB] py-2 rounded-2xl">
     <div className="flex lg:flex-row  flex-row-reverse  items-center text-[20px] leading-[23.87px] text-right tracking[2%]">
