@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'SF Pro Display Regular';
+  src: url('/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  /* Add more src lines if you have multiple font formats */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'SF Pro Display Regular', sans-serif;
+}
 nav{
   font-size: 16px;
 }
@@ -23,6 +34,10 @@ nav{
     color: #808080;
     font-size: 16px;
     font-weight: 500;
+  }
+  .font{
+    font-size: 1.5em;
+  
   }
 
 

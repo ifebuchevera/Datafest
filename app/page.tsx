@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -10,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <main className="w-[100%]">
+    <main className="w-[100%] font-sf-pro-display">
     <nav className="bg-white p-4 border-[3px] border-[#F6F6F6]">
       <div className="container mx-auto flex justify-between  items-center">
         <Link href="/" className="text-[#808080]  font-500  font-500  font-500 text-lg font-bold">
@@ -208,10 +209,10 @@ const Navbar = () => {
 
 </div>
 
-<div className="" id="about">
-  <div className="flex lg:flex-row flex-col justify-center items-center mx-10">
-<div className="xl:w-1/2 w-full">
-  <h1 className="text-[#3E3F96] xl:leading-[80px] leading-[52.28px] tracking-[-2%] font-bold xl:text-[72px] text-[48px] ">
+<section className="my-16" id="about">
+  <div className="flex xl:flex-row flex-col justify-evenly items-center mx-10 ">
+<div className="xl:w-[45%] mx-2 w-full">
+  <h1 className="text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] font-bold xl:text-[72px] text-[48px] ">
     About Event
   </h1>
   <div className="text-[#808080]">
@@ -235,18 +236,127 @@ const Navbar = () => {
      </button></p>
  </div>
 </div>
-<Image src="/img/about.svg" alt="people" width="10" height="10" className='lg:w-auto w-full '/>
+<Image src="/img/about.svg" alt="people" width="10" height="10" className='xl:w-auto w-full my-5 '/>
 </div>
-<div className="xl:w-1/2 w-full">
-  <h2 className="text-[#009933] leading-[47.73px] font-bold text-[40px] tracking-[-2%]">
+<div className="xl:w-[45%] mx-2 w-full">
+  <h2 className="text-[#009933] md:leading-[47.73px] leading-[32.73px]  font-bold md:text-[40px] text-[32px] tracking-[-2%]">
     Schedule & Agenda
 
   </h2>
+  <div className=' border-b-[1px] pb-4 my-2 border-[#333333]'>
+  {/* <ul className="list-inside">
+   <p className="text-pink-500"></p>
+   </ul> */}
+   <ul className="list-none">
+  <li className="relative pl-5 flex font-bold text-[20px] leading-[24px] tracking-[2%] items-center text-[#808080]">
+    <span className="text-[#009933] my-2 font absolute left-0">&#8226;</span>
+    9:00AM-10:00AM
+  </li>
+  </ul>
+   <p className="text-[#333333] my-2 font-bold leading-[32px] text-[28px] tracking-[-2%]">Door opens! - Registration & Check-in</p>
+   <p className="text-[#808080] my-2 text-[20px] leading-[24px] ">Attendee arrival and Check-in</p>
+  </div>
+  <div className=' border-b-[1px] pb-4 my-2 border-[#333333]'>
+  {/* <ul className="list-inside">
+   <p className="text-pink-500"></p>
+   </ul> */}
+   <ul className="list-none">
+  <li className="relative pl-5 flex font-bold text-[20px] leading-[24px] tracking-[2%] items-center text-[#808080]">
+    <span className="text-[#009933] my-2 font absolute left-0">&#8226;</span>
+    9:00AM-10:00AM
+  </li>
+  </ul>
+   <p className="text-[#333333] my-2 font-bold leading-[32px] text-[28px] tracking-[-2%]">Door opens! - Registration & Check-in</p>
+   <p className="text-[#808080] my-2 text-[20px] leading-[24px] ">Attendee arrival and Check-in</p>
+  </div>
+  <div className=' border-b-[1px] pb-4 my-2 border-[#333333]'>
+  {/* <ul className="list-inside">
+   <p className="text-pink-500"></p>
+   </ul> */}
+   <ul className="list-none">
+  <li className="relative pl-5 flex font-bold text-[20px] leading-[24px] tracking-[2%] items-center text-[#808080]">
+    <span className="text-[#009933] my-2 font absolute left-0">&#8226;</span>
+    9:00AM-10:00AM
+  </li>
+  </ul>
+   <p className="text-[#333333] my-2 font-bold leading-[32px] text-[28px] tracking-[-2%]">Door opens! - Registration & Check-in</p>
+   <p className="text-[#808080] my-2 text-[20px] leading-[24px] ">Attendee arrival and Check-in</p>
+  </div>
+  <div className=' border-b-[1px] pb-4 my-2 border-[#333333]'>
+  {/* <ul className="list-inside">
+   <p className="text-pink-500"></p>
+   </ul> */}
+   <ul className="list-none">
+  <li className="relative pl-5 flex font-bold text-[20px] leading-[24px] tracking-[2%] items-center text-[#808080]">
+    <span className="text-[#009933] my-2 font absolute left-0">&#8226;</span>
+    9:00AM-10:00AM
+  </li>
+  </ul>
+   <p className="text-[#333333] my-2 font-bold leading-[32px] text-[28px] tracking-[-2%]">Door opens! - Registration & Check-in</p>
+   <p className="text-[#808080] my-2 text-[20px] leading-[24px] ">Attendee arrival and Check-in</p>
+  </div>
+  <div className=' border-b-[1px] pb-4 my-2 border-[#333333]'>
+  {/* <ul className="list-inside">
+   <p className="text-pink-500"></p>
+   </ul> */}
+   <ul className="list-none">
+  <li className="relative pl-5 flex font-bold text-[20px] leading-[24px] tracking-[2%] items-center text-[#808080]">
+    <span className="text-[#009933] my-2 font absolute left-0">&#8226;</span>
+    9:00AM-10:00AM
+  </li>
+  </ul>
+   <p className="text-[#333333] my-2 font-bold leading-[32px] text-[28px] tracking-[-2%]">Door opens! - Registration & Check-in</p>
+   <p className="text-[#808080] my-2 text-[20px] leading-[24px] ">Attendee arrival and Check-in</p>
+  </div>
+  <div className=' border-b-[1px] pb-4 my-2 border-[#333333]'>
+  {/* <ul className="list-inside">
+   <p className="text-pink-500"></p>
+   </ul> */}
+   <ul className="list-none">
+  <li className="relative pl-5 flex font-bold text-[20px] leading-[24px] tracking-[2%] items-center text-[#808080]">
+    <span className="text-[#009933] my-2 font absolute left-0">&#8226;</span>
+    9:00AM-10:00AM
+  </li>
+  </ul>
+   <p className="text-[#333333] my-2 font-bold leading-[32px] text-[28px] tracking-[-2%]">Door opens! - Registration & Check-in</p>
+   <p className="text-[#808080] my-2 text-[20px] leading-[24px] ">Attendee arrival and Check-in</p>
+  </div>
+  <div className=' border-b-[1px] pb-4 my-2 border-[#333333]'>
+  {/* <ul className="list-inside">
+   <p className="text-pink-500"></p>
+   </ul> */}
+   <ul className="list-none">
+  <li className="relative pl-5 flex font-bold text-[20px] leading-[24px] tracking-[2%] items-center text-[#808080]">
+    <span className="text-[#009933] my-2 font absolute left-0">&#8226;</span>
+    9:00AM-10:00AM
+  </li>
+  </ul>
+   <p className="text-[#333333] my-2 font-bold leading-[32px] text-[28px] tracking-[-2%]">Door opens! - Registration & Check-in</p>
+   <p className="text-[#808080] my-2 text-[20px] leading-[24px] ">Attendee arrival and Check-in</p>
+  </div>
+
 
 </div>
   </div>
-</div>
+</section>
 
+<section className="">
+{/* <div className="relative overflow-hidden">
+      <div className="flex transition-transform ease-in-out duration-300 transform translate-x-[-${currentIndex * 100}%]">
+        {images.map((image, index) => (
+          <div key={index} className="w-full aspect-w-16 aspect-h-9">
+            <img src={image} alt={`Slide ${index + 1}`} className="object-cover w-full h-full" />
+          </div>
+        ))}
+      </div>
+      <button className="absolute top-1/2 left-2 transform -translate-y-1/2" onClick={goToPrev}>
+        &#9664;
+      </button>
+      <button className="absolute top-1/2 right-2 transform -translate-y-1/2" onClick={goToNext}>
+        &#9654;
+      </button>
+    </div> */}
+</section>
     </main>
    
   );
