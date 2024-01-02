@@ -2,9 +2,12 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import ImageSlider from '@/component/imageSlider';
+
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const imageUrls = ['/img/combined.svg', 'img/imgD.svg', 'img/imgE.svg', '/img/combined.svg',  'img/imgD.svg','img/imgD.svg', 'img/imgE.svg', '/img/combined.svg',  'img/imgD.svg']; // Replace with your image URLs
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -341,21 +344,7 @@ const Navbar = () => {
 </section>
 
 <section className="">
-{/* <div className="relative overflow-hidden">
-      <div className="flex transition-transform ease-in-out duration-300 transform translate-x-[-${currentIndex * 100}%]">
-        {images.map((image, index) => (
-          <div key={index} className="w-full aspect-w-16 aspect-h-9">
-            <img src={image} alt={`Slide ${index + 1}`} className="object-cover w-full h-full" />
-          </div>
-        ))}
-      </div>
-      <button className="absolute top-1/2 left-2 transform -translate-y-1/2" onClick={goToPrev}>
-        &#9664;
-      </button>
-      <button className="absolute top-1/2 right-2 transform -translate-y-1/2" onClick={goToNext}>
-        &#9654;
-      </button>
-    </div> */}
+<ImageSlider images={imageUrls} />
 </section>
     </main>
    
