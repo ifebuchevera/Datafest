@@ -7,7 +7,7 @@ import ImageSlider from '@/component/imageSlider';
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  const imageUrls = ['/img/combined.svg', 'img/imgD.svg', 'img/imgE.svg', '/img/combined.svg',  'img/imgD.svg','img/imgD.svg', 'img/imgE.svg', '/img/combined.svg',  'img/imgD.svg']; // Replace with your image URLs
+  const imageUrls = ['/img/sophia.svg', 'img/godson.svg', 'img/sophia.svg', '/img/godson.svg','img/sophia.svg',]; // Replace with your image URLs
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -343,8 +343,22 @@ const Navbar = () => {
   </div>
 </section>
 
-<section className="">
+{/* <section className="mx-10 overflow-visible overflow-x-auto">
 <ImageSlider images={imageUrls} />
+
+</section> */}
+<section>
+  <ImageSlider/>
+{/* <div className="flex mx-10 overflow-x-auto">
+  <Image width="10" height="10" src="/img/sophia.svg" alt="image" className="w-auto mx-5 " />
+  <Image width="10" height="10" src="/img/sophia.svg" alt="image" className="w-auto mx-5 " />
+  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
+  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
+  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
+  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
+  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
+</div> */}
+
 </section>
     </main>
    
