@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
 
                     </p>
                 </div>
-                <div className="flex items-start md:items-center justify-evenly md:flex-row flex-col">
+                <div className="flex items-center md:items-center justify-evenly md:flex-row flex-col">
 
                 <div className="flex items-start md:items-center justify-evenly my-5">
                  <div className=" mx-5 text-left  md:mx-3">
