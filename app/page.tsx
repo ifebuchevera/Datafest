@@ -80,7 +80,7 @@ const Navbar = () => {
                   <div className="flex my-2 ">
                     <p className=''>
                       <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
-                        Join a community
+                        Join our community
                         <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
                       </button></p>
                   </div>
@@ -120,7 +120,7 @@ const Navbar = () => {
             <div className="hidden lg:flex ">
               <p className=''>
                 <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]'>
-                  Join a community
+                  Join our community
                   <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
                 </button></p>
             </div>
@@ -167,7 +167,7 @@ const Navbar = () => {
           <div className="flex mx-2 my-2 ">
             <p className=''>
               <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
-                Join a community
+                Join our community
                 <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
               </button></p>
           </div>
@@ -431,17 +431,8 @@ Become as Speaker
     </div>
    
 </section>
-      <section id="organizers">
+      <section id="organizers" className='my-7'>
         <ImageSlider />
-        {/* <div className="flex mx-10 overflow-x-auto">
-  <Image width="10" height="10" src="/img/sophia.svg" alt="image" className="w-auto mx-5 " />
-  <Image width="10" height="10" src="/img/sophia.svg" alt="image" className="w-auto mx-5 " />
-  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
-  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
-  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
-  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
-  <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-5 " />
-</div> */}
 
       </section>
 
@@ -449,18 +440,8 @@ Become as Speaker
 
         
       </div></div>
-      <div className="marquee-container">
-      <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-bold">
-       
-        <p className="">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-        <p className="">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-        <p className="">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-       
-        
      
-      </div>
-    </div>
-    <section  className="bg-[#F9F9F9]">
+    <section  className="bg-[#F9F9F9] my-10">
       <Timer />
     </section >
       <Footer />
