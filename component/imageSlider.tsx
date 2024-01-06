@@ -71,7 +71,7 @@ const ImageSlider: React.FC = () => {
 
   return (
     <div className="">
-<div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">Speakers</div>
+<div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">Organizers</div>
     <div className="ml-16 my-4">
 
     <div ref={sliderRef} className="flex ml-16  pl-10 overflow-x-auto speaker">
@@ -84,7 +84,7 @@ const ImageSlider: React.FC = () => {
   <Image width="10" height="10" src="/img/godson.svg" alt="image" className="w-auto mx-3 " />
       {/* Add your other Image components here */}
     </div>
-    <div className="flex items-center justify-center my-5">
+    {/* <div className="flex items-center justify-center my-5">
     <div className="flex my-2 ">
           <p className=''>
             <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
@@ -92,7 +92,7 @@ const ImageSlider: React.FC = () => {
             <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2'/>
             </button></p>
         </div>
-    </div>
+    </div> */}
 <div className="flex items-center flex-row my-5 justify-center">
 
       <button onClick={() => scrollSlider('left')}>

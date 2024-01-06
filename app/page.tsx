@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import ImageSlider from '@/component/imageSlider';
 import Footer from '@/component/Footer';
+import Timer from '@/component/Timer';
 
 
 const Navbar = () => {
@@ -344,10 +345,92 @@ const Navbar = () => {
         </div>
       </section>
 
-      {/* <section className="mx-10 overflow-visible overflow-x-auto">
-<ImageSlider images={imageUrls} />
+<section className="" id="speakers">
+<div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">Speakers</div>
 
-</section> */}
+<div className="marquee-container">
+      <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
+       
+        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+       
+        
+     
+      </div>
+    </div>
+    <div className="flex mx-0 md:mx-2 my-5 items-center justify-center">
+  <p className=''>
+    <button className='flex items-center font-bold  justify-center whitespace-nowrap text-[#009933]  border-2 border-[#009933] rounded-3xl w-[243px]  px-[24px] py-[8px] leading-[23.87px] text-[20px] xl:leading-[28px] xl:text-[24px]'>
+Become as Speaker
+      <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
+    </button></p>
+</div>
+</section>
+<section className="bg-[#F9F9F9] py-12" id='partners' >
+<div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">    Partners & <br className="md:hidden flex" /> Sponsors</div>
+
+<div className="marquee-container my-5">
+      <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
+       
+        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+       
+        
+     
+      </div>
+    </div>
+    
+<div className="mx-10 my-10">
+
+
+          <div className="flex justify-center items-center ">
+            <div className="xl:text-center  xl:text-[48px]  font-bold lg:text-[40px] lg:leading:[47.73px]  leading:[38.19px] text-[32px] xl:leading-[56px] ">
+              <span className="">Data Scientists Network UNN 2024  </span>
+              <br className="md:flex hidden " />
+              <span className=' '>Sponsorship</span>
+            </div>
+          </div>
+          <div className="flex justify-center items-center font-normal  lg:leading-[32px] text-[20px] leading-[20px] xl:leading-[32px] lg:text-center text-[#808080] my-5 ">
+            If your organization is interested in sponsoring the DSNUNNSummit event, Kindly got through our Sponsorship deck
+          </div>
+          <div className="flex  items-center justify-center md:flex-row flex-col  ">
+
+<div className="flex mx-0 md:mx-2 my-2 ">
+  <p className=''>
+    <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
+      Register fot Hackathon
+      <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
+    </button></p>
+</div>
+<div className="flex mx-0 md:mx-2 my-2 ">
+  <p className=''>
+    <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
+      Join Our community
+      <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
+    </button></p>
+</div>
+</div>
+        </div>
+</section>
+   
+<section className="" id="panelist">
+<div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">Panelist</div>
+
+<div className="marquee-container">
+      <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
+       
+        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+       
+        
+     
+      </div>
+    </div>
+   
+</section>
       <section>
         <ImageSlider />
         {/* <div className="flex mx-10 overflow-x-auto">
@@ -361,6 +444,25 @@ const Navbar = () => {
 </div> */}
 
       </section>
+
+      <div className=""> <div className="">
+
+        
+      </div></div>
+      <div className="marquee-container">
+      <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-bold">
+       
+        <p className="">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+        <p className="">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+        <p className="">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
+       
+        
+     
+      </div>
+    </div>
+    <section  className="bg-[#F9F9F9]">
+      <Timer />
+    </section >
       <Footer />
     </main>
 

@@ -44,3 +44,37 @@ nav{
   overflow:hidden;
   margin-left: 3.9%;
 }
+/* styles/globals.css */
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.timer{
+font-size: 80px;
+line-height: 95.47px;
+font-weight: bold;
+letter-spacing: 12px;
+}
+
+.inactive-color {
+  filter: grayscale(80%); /* Adjust the percentage to control the level of grayscale */
+  opacity: 0.7; /* Adjust the opacity as needed */
+  /* Add any other styles you want for your inactive color */
+}
