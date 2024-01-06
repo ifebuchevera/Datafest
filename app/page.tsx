@@ -79,10 +79,14 @@ const Navbar = () => {
                   </div>
                   <div className="flex my-2 ">
                     <p className=''>
+                      <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
+
                       <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
                         Join our community
                         <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                      </button></p>
+                      </button>
+                      </Link>
+                      </p>
                   </div>
                 </div>
                 {/* Add more links as needed */}
@@ -119,10 +123,12 @@ const Navbar = () => {
             </div>
             <div className="hidden lg:flex ">
               <p className=''>
+              <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
                 <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]'>
                   Join our community
                   <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                </button></p>
+                </button>
+                </Link></p>
             </div>
           </div>
         </div>
@@ -166,10 +172,13 @@ const Navbar = () => {
           </div>
           <div className="flex mx-2 my-2 ">
             <p className=''>
+            <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
               <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
                 Join our community
                 <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-              </button></p>
+              </button>
+              </Link>
+              </p>
           </div>
         </div>
         <div className="flex  flex-row-reverse my-2 items-center text-[20px] leading-[23.87px] text-left tracking[2%]">
@@ -229,16 +238,19 @@ const Navbar = () => {
               <div className="flex mx-2 my-2">
                 <p className=''>
                   <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
-                    Register fot Hackathon
+                    Register for Hackathon
                     <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
                   </button></p>
               </div>
               <div className="flex mx-2 my-2 ">
                 <p className=''>
+                <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
                   <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
                     Join Our community
                     <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                  </button></p>
+                  </button>
+                  </Link>
+                  </p>
               </div>
             </div>
             <Image src="/img/about.svg" alt="people" width="10" height="10" className='xl:w-auto w-full my-5 ' />
@@ -400,16 +412,18 @@ Become as Speaker
 <div className="flex mx-0 md:mx-2 my-2 ">
   <p className=''>
     <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
-      Register fot Hackathon
+      Register for Hackathon
       <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
     </button></p>
 </div>
 <div className="flex mx-0 md:mx-2 my-2 ">
   <p className=''>
+  <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
     <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
       Join Our community
       <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-    </button></p>
+    </button>
+    </Link></p>
 </div>
 </div>
         </div>
