@@ -19,19 +19,19 @@ const Footer: React.FC = () => {
                 <div className="flex items-start md:items-center justify-evenly md:flex-row flex-col">
 
                 <div className="flex items-start md:items-center justify-evenly my-5">
-                 <div className=" mx-5 text-left  md:mx-0">
+                 <div className=" mx-5 text-left  md:mx-3">
                     <p className="">About</p>
                     <p className="">Speakers</p>
                     <p className="">Partners & Sponsors</p>
                 </div>
-                <div className=" mx-5 text-left  md:mx-0">
+                <div className=" mx-5 text-left  md:mx-3">
                     <p className="">Panelist</p>
                     <p className="">Organizers</p>
                     <p className="">Our Blog</p>
                 </div>
                 </div>
 
-                <div className="flex  md:mx-0 mx-5 text-left ">
+                <div className="flex  md:mx-5 mx-3 text-left ">
                     <p className=''>
                       <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
                       Join Our Community
