@@ -24,7 +24,7 @@ const Countdown: React.FC = () => {
 
     return (
         <div className='m-auto flex rounded-3xl items-center justify-center '>
-            <div className=" bg-[#009933] rounded-[24px] border-2 p-4  my-10">
+            <div className=" bg-[#009933] rounded-[24px] border-2 p-4 md:mx-5  my-10">
 
 
                 <div className="flex justify-center items-center p-4   ">

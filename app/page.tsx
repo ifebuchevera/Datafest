@@ -431,7 +431,7 @@ Become as Speaker
     </div>
    
 </section>
-      <section>
+      <section id="organizers">
         <ImageSlider />
         {/* <div className="flex mx-10 overflow-x-auto">
   <Image width="10" height="10" src="/img/sophia.svg" alt="image" className="w-auto mx-5 " />
