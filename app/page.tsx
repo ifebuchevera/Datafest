@@ -135,12 +135,12 @@ const Navbar = () => {
       </nav>
       <div className="">
 
-        <div className="mx-10">
+        <div className="lg:mx-10 mx-4">
 
 
           <div className="flex justify-center items-center ">
-            <div className="xl:text-center  xl:text-[104px] tracking-[2px] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
-              <span className=" text-[#FE0000]">Data Scientist Network </span>
+            <div className="xl:text-center  xl:text-[104px] tracking-[2%] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
+              <span className=" text-[#FE0000]">Data Scientists Network </span>
 
               <span className='text-[#009933] '>UNN Summit</span>
             </div>
@@ -165,16 +165,16 @@ const Navbar = () => {
 
           <div className="flex mx-2 my-2">
             <p className=''>
-              <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
+              <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[24px]'>
                 Register as an attendee
                 <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
               </button></p>
           </div>
           <div className="flex mx-2 my-2 ">
             <p className=''>
-            <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
-              <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
-                Join our community
+            <Link href="">
+              <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[42px] py-[8px] text-[24px]  my-2'>
+              Volunteer at event
                 <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
               </button>
               </Link>
@@ -192,7 +192,7 @@ const Navbar = () => {
 
         </div>
       </div>
-      <div className="flex md:flex-row flex-col justify-center items-center mx-10 ">
+      <div className="flex md:flex-row flex-col justify-center items-center lg:mx-10 mx-4 ">
 
 
         <Image src="/img/imgA.svg" alt="people" width="10" height="10" className='lg:w-auto w-full mx-2' />
@@ -224,7 +224,7 @@ const Navbar = () => {
       </div>
 
       <section className="my-16" id="about">
-        <div className="flex xl:flex-row flex-col justify-evenly items-center mx-10 ">
+        <div className="flex xl:flex-row flex-col justify-evenly items-center lg:mx-10 mx-4 ">
           <div className="xl:w-[45%] mx-2 w-full">
             <h1 className="text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] font-bold xl:text-[72px] text-[48px] ">
               About Event
@@ -233,11 +233,11 @@ const Navbar = () => {
               <span className="text-[#333333] font-bold">
                 DSNUNNSummit 2024 </span> is a comprehensive event spotlighting diverse careers in Africa&apos;s data space. Designed to connect professionals, students, and enthusiasts, it serves as a platform for learning, networking, and collaboration. The summit features a range of activities, with a particular emphasis on the <span className="text-[#333333] font-bold">hackathon</span>  organized by  <span className="text-[#333333] font-bold">Data Scientists Network UNN(DSN)</span>. Participants can expect engaging sessions, hands-on workshops, and networking opportunities, all geared towards fostering community-driven engagement. <span className="text-[#333333] font-bold">DSNUNNSummit</span> is an essential gathering for those looking to explore, learn, and contribute to the dynamic field of data and technology in Africa.
             </div>
-            <div className="flex  items-center md:flex-row flex-col  ">
+            <div className="flex  items-center md:flex-row flex-col my-5 ">
 
               <div className="flex mx-2 my-2">
                 <p className=''>
-                  <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
+                  <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[24px]'>
                     Register for Hackathon
                     <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
                   </button></p>
@@ -245,7 +245,7 @@ const Navbar = () => {
               <div className="flex mx-2 my-2 ">
                 <p className=''>
                 <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
-                  <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
+                  <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-[30px]  px-[24px] py-[8px] text-[24px]  my-2'>
                     Join Our community
                     <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
                   </button>
@@ -382,6 +382,15 @@ Become as Speaker
 <section className="bg-[#F9F9F9] py-12" id='partners' >
 <div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">    Partners & <br className="md:hidden flex" /> Sponsors</div>
 
+<div className="">
+  <p className="text-[48px] font-bold leading-[56px]">Partners</p>
+  <div className="">
+  <Image src="/img/partnerXL.svg" alt="img" width="100" height="100" className='xl:flex hidden'/>
+  <Image src="/img/partnerLg.svg" alt="img" width="100" height="100" className='lg:flex hidden'/>
+  <Image src="/img/partnerMd.svg" alt="img" width="100" height="100" className='md:flex hidden'/>
+
+  </div>
+</div>
 <div className="marquee-container my-5">
       <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
        
@@ -394,7 +403,7 @@ Become as Speaker
       </div>
     </div>
     
-<div className="mx-10 my-10">
+<div className="lg:mx-10 mx-4 my-10">
 
 
           <div className="flex justify-center items-center ">
@@ -411,16 +420,16 @@ Become as Speaker
 
 <div className="flex mx-0 md:mx-2 my-2 ">
   <p className=''>
-    <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
-      Register for Hackathon
+    <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[24px]'>
+      Download our Deck
       <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
     </button></p>
 </div>
 <div className="flex mx-0 md:mx-2 my-2 ">
   <p className=''>
-  <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
-    <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
-      Join Our community
+  <Link href="">
+    <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[24px]  my-2'>
+      Become a sponsor
       <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
     </button>
     </Link></p>

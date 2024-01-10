@@ -23,7 +23,7 @@ const Countdown: React.FC = () => {
     }, [eventDate]);
 
     return (
-        <div className='m-auto flex rounded-3xl items-center justify-center '>
+        <div className='lg:m-auto  mx-4 flex rounded-3xl items-center justify-center '>
             <div className=" bg-[#009933] rounded-[24px] border-2 p-4 md:mx-5  my-10">
 
 
@@ -58,7 +58,7 @@ const Countdown: React.FC = () => {
                     </div>
                 </div>
 
-                <div className='text-[#fff] timer flex items-center justify-center my-5'> {formatTime(timeRemaining)}</div>
+                <div className='text-[#fff] text-[40px] xl:text-[80px] timer flex items-center justify-center my-5'> {formatTime(timeRemaining)}</div>
             </div>
         </div>
     );
