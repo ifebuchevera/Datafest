@@ -67,10 +67,11 @@ nav{
   }
 }
 .timer{
-font-size: 40px;
+font-size: 50px;
 line-height: 70.47px;
 font-weight: bold;
 letter-spacing: 12px;
+text-align: center;
 }
 
 .inactive-color {

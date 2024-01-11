@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 const Countdown: React.FC = () => {
     const eventDate = new Date('2024-03-06T00:00:00Z'); // Set your event date and time here
     const [timeRemaining, setTimeRemaining] = useState<number>(calculateTimeRemaining());
@@ -44,10 +45,12 @@ const Countdown: React.FC = () => {
 
                     <div className="flex mx-0 md:mx-2 my-2 ">
                         <p className=''>
+                        <Link href="https://docs.google.com/forms/d/e/1FAIpQLSes71duyGOKOl5o_n3HIt0KccBy3CzUgP6NoBwIZV0D2JquzQ/viewform">
                             <button className='flex items-center justify-center whitespace-nowrap text-[#333333] bg-white rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
                                 Register for Hackathon
                                 <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                            </button></p>
+                            </button>
+                            </Link></p>
                     </div>
                     <div className="flex mx-0 md:mx-2 my-2 ">
                         <p className=''>

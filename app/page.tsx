@@ -16,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <main className="w-[100%] font-sf-pro-display">
+    <main className=" font-sf-pro-display">
       <nav className="bg-white p-4 border-[3px] border-[#F6F6F6]">
         <div className="container mx-auto flex justify-between  items-center">
           <Link href="/" className="text-[#808080]  font-500  font-500  font-500 text-lg font-bold">
@@ -24,10 +24,13 @@ const Navbar = () => {
           </Link>
           <div className="hidden md:flex xl:hidden">
             <p>
-              <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]'>
-                Register as an attendee
-                <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
-              </button>
+              <Link href="https://lu.ma/kif9q0to">
+
+                <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]'>
+                  Register as an attendee
+                  <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                </button>
+              </Link>
             </p>
           </div>
 
@@ -72,21 +75,24 @@ const Navbar = () => {
 
                   <div className="flex my-2">
                     <p className=''>
-                      <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
-                        Register as an attendee
-                        <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                      </button></p>
+                      <Link href="https://lu.ma/kif9q0to">
+                        <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl w-[240px]  px-[16px] py-[8px] text-[16px]'>
+                          Register as an attendee
+                          <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                        </button>
+                      </Link>
+                    </p>
                   </div>
                   <div className="flex my-2 ">
                     <p className=''>
                       <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
 
-                      <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
-                        Join our community
-                        <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                      </button>
+                        <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px] w-[240px] my-2'>
+                          Join our community
+                          <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                        </button>
                       </Link>
-                      </p>
+                    </p>
                   </div>
                 </div>
                 {/* Add more links as needed */}
@@ -116,18 +122,21 @@ const Navbar = () => {
             </Link>
             <div className="hidden lg:flex ">
               <p className=''>
-                <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]'>
-                  Register as an attendee
-                  <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                </button></p>
+                <Link href="https://lu.ma/kif9q0to">
+                  <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]'>
+                    Register as an attendee
+                    <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                  </button>
+                </Link>
+              </p>
             </div>
             <div className="hidden lg:flex ">
               <p className=''>
-              <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
-                <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]'>
-                  Join our community
-                  <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                </button>
+                <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
+                  <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[16px]'>
+                    Join our community
+                    <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                  </button>
                 </Link></p>
             </div>
           </div>
@@ -135,13 +144,12 @@ const Navbar = () => {
       </nav>
       <div className="">
 
-        <div className="lg:mx-10 mx-4">
+        <div className=" lg:mx-10 mx-4">
 
 
           <div className="flex justify-center items-center ">
-            <div className="xl:text-center  xl:text-[104px] tracking-[2%] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
+            <div className="xl:text-center  xl:text-[104px] tracking-[-2%] font-bold lg:text-[72px] lg:leading:[80px]  leading:[64px] text-[60px] xl:leading-[112px] ">
               <span className=" text-[#FE0000]">Data Scientists Network </span>
-
               <span className='text-[#009933] '>UNN Summit</span>
             </div>
           </div>
@@ -150,7 +158,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="flex lg:mx-10 mx-0 my-16 items-center justify-evenly space-2  md:flex-row flex-col bg-[#F9FFFB] py-2 rounded-[24px] xl:rounded-[1000px]">
+      <div className="flex lg:mx-10 mx-0 my-16 items-center justify-evenly space-2  md:flex-row flex-col bg-[#F9F9F9] py-2 rounded-[24px] xl:rounded-[1000px]">
         <div className="flex my-2 lg:flex-row  flex-row-reverse  items-center text-[20px] leading-[23.87px] text-right tracking[2%]">
           <div className="mx-3 flex md:flex-col flex-row">
 
@@ -165,20 +173,23 @@ const Navbar = () => {
 
           <div className="flex mx-2 my-2">
             <p className=''>
-              <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[24px]'>
-                Register as an attendee
-                <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
-              </button></p>
+              <Link href="https://lu.ma/kif9q0to">
+                <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl  px-[16px] py-[8px] text-[24px]'>
+                  Register as an attendee
+                  <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                </button>
+              </Link>
+            </p>
           </div>
           <div className="flex mx-2 my-2 ">
             <p className=''>
-            <Link href="">
-              <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[42px] py-[8px] text-[24px]  my-2'>
-              Volunteer at event
-                <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-              </button>
+              <Link href="">
+                <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[42px] py-[8px] text-[24px]  my-2'>
+                  Volunteer at event
+                  <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                </button>
               </Link>
-              </p>
+            </p>
           </div>
         </div>
         <div className="flex  flex-row-reverse my-2 items-center text-[20px] leading-[23.87px] text-left tracking[2%]">
@@ -237,20 +248,24 @@ const Navbar = () => {
 
               <div className="flex mx-2 my-2">
                 <p className=''>
-                  <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[24px]'>
-                    Register for Hackathon
-                    <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                  </button></p>
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLSes71duyGOKOl5o_n3HIt0KccBy3CzUgP6NoBwIZV0D2JquzQ/viewform">
+
+                    <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[24px]'>
+                      Register for Hackathon
+                      <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                    </button>
+                  </Link>
+                </p>
               </div>
               <div className="flex mx-2 my-2 ">
                 <p className=''>
-                <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
-                  <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-[30px]  px-[24px] py-[8px] text-[24px]  my-2'>
-                    Join Our community
-                    <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-                  </button>
+                  <Link href="https://chat.whatsapp.com/KHKuYYipdLO5ZOkP0rK0Sh">
+                    <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-[30px]  px-[24px] py-[8px] text-[24px]  my-2'>
+                      Join Our community
+                      <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                    </button>
                   </Link>
-                  </p>
+                </p>
               </div>
             </div>
             <Image src="/img/about.svg" alt="people" width="10" height="10" className='xl:w-auto w-full my-5 ' />
@@ -357,53 +372,57 @@ const Navbar = () => {
         </div>
       </section>
 
-<section className="" id="speakers">
-<div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">Speakers</div>
+      <section className="" id="speakers">
+        <div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">Speakers</div>
 
-<div className="marquee-container">
-      <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
-       
-        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-       
-        
-     
-      </div>
-    </div>
-    <div className="flex mx-0 md:mx-2 my-5 items-center justify-center">
-  <p className=''>
-    <button className='flex items-center font-bold  justify-center whitespace-nowrap text-[#009933]  border-2 border-[#009933] rounded-3xl w-[243px]  px-[24px] py-[8px] leading-[23.87px] text-[20px] xl:leading-[28px] xl:text-[24px]'>
-Become as Speaker
-      <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-    </button></p>
-</div>
-</section>
-<section className="bg-[#F9F9F9] py-12" id='partners' >
-<div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">    Partners & <br className="md:hidden flex" /> Sponsors</div>
+        <div className="marquee-container">
+          <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
 
-<div className="">
-  <p className="text-[48px] font-bold leading-[56px]">Partners</p>
-  <div className="">
-  <Image src="/img/partnerXL.svg" alt="img" width="100" height="100" className='xl:flex hidden'/>
-  <Image src="/img/partnerLg.svg" alt="img" width="100" height="100" className='lg:flex hidden'/>
-  <Image src="/img/partnerMd.svg" alt="img" width="100" height="100" className='md:flex hidden'/>
+            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
+            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
+            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
 
-  </div>
-</div>
-<div className="marquee-container my-5">
-      <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
-       
-        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-       
-        
-     
-      </div>
-    </div>
-    
-<div className="lg:mx-10 mx-4 my-10">
+
+
+          </div>
+        </div>
+        <div className="flex mx-0 md:mx-2 my-5 items-center justify-center">
+          <p className=''>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSe5G5d2JznlctzNEefajv5YRfeFn_qqUNPjT6M2-7rkrFe_qA/viewform?pli=1">
+
+            <button className='flex items-center font-bold  justify-center whitespace-nowrap text-[#009933]  border-2 border-[#009933] rounded-3xl w-[243px]  px-[24px] py-[8px] leading-[23.87px] text-[20px] xl:leading-[28px] xl:text-[24px]'>
+              Become as Speaker
+              <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
+            </button>
+            </Link>
+            </p>
+        </div>
+      </section>
+      <section className="bg-[#F9F9F9] my-5 py-12" id='partners' >
+        <div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">    Partners & <br className="md:hidden flex" /> Sponsors</div>
+
+        <div className="my-5">
+          <p className="xl:text-[48px] flex items-center justify-center my-3 text-[32px] leading-[38.19px] font-bold xl:leading-[56px]">Partners</p>
+          <div className="mx-5">
+            <Image src="/img/partnerXL.svg" alt="img" width="100" height="100" className='xl:flex hidden w-auto' />
+            <Image src="/img/partnerLg.svg" alt="img" width="100" height="100" className='lg:flex md:hidden hidden w-auto' />
+            <Image src="/img/partnerMd.svg" alt="img" width="100" height="100" className=' md:hidden flex w-auto' />
+
+          </div>
+        </div>
+        {/* <div className="marquee-container my-5">
+          <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
+
+            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
+            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
+            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
+
+
+
+          </div>
+        </div> */}
+
+        <div className="lg:mx-10 mx-4 my-16">
 
 
           <div className="flex justify-center items-center ">
@@ -418,42 +437,42 @@ Become as Speaker
           </div>
           <div className="flex  items-center justify-center md:flex-row flex-col  ">
 
-<div className="flex mx-0 md:mx-2 my-2 ">
-  <p className=''>
-    <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[24px]'>
-      Download our Deck
-      <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
-    </button></p>
-</div>
-<div className="flex mx-0 md:mx-2 my-2 ">
-  <p className=''>
-  <Link href="">
-    <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[24px]  my-2'>
-      Become a sponsor
-      <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
-    </button>
-    </Link></p>
-</div>
-</div>
+            <div className="flex mx-0 md:mx-2 my-2 ">
+              <p className=''>
+                <button className='flex items-center justify-center whitespace-nowrap text-[#fff] bg-[#009933] rounded-3xl   px-[16px] py-[8px] text-[24px]'>
+                  Download our Deck
+                  <Image src="/img/arrow.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                </button></p>
+            </div>
+            <div className="flex mx-0 md:mx-2 my-2 ">
+              <p className=''>
+                <Link href="">
+                  <button className='flex items-center justify-center whitespace-nowrap text-[#009933] border-2 border-[#009933] rounded-3xl  px-[16px] py-[8px] text-[24px]  my-2'>
+                    Become a sponsor
+                    <Image src="/img/green.svg" width="10" height="10" alt="" className='w-auto px-2' />
+                  </button>
+                </Link></p>
+            </div>
+          </div>
         </div>
-</section>
-   
-<section className="" id="panelist">
-<div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">Panelist</div>
+      </section>
 
-<div className="marquee-container">
-      <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
-       
-        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-        <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>  
-       
-        
-     
-      </div>
-    </div>
-   
-</section>
+      <section className="" id="panelist">
+        <div className="flex items-center justify-center text-[#3E3F96] xl:leading-[80px] my-3 leading-[52.28px] tracking-[-2%] my-5 font-bold xl:text-[72px] text-[48px]">Panelist</div>
+
+        <div className="marquee-container">
+          <div className="marquee inactive-color text-[#009933] leading-[57.28px] text-[48px] tracking-[-2%] text-extrabold font-bold">
+
+            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
+            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
+            <p className="my-5">COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!! COMING SOON !!!  COMING SOON !!! COMING SOON !!! COMING SOON !!! </p>
+
+
+
+          </div>
+        </div>
+
+      </section>
       <section id="organizers" className='my-7'>
         <ImageSlider />
 
@@ -461,12 +480,12 @@ Become as Speaker
 
       <div className=""> <div className="">
 
-        
+
       </div></div>
-     
-    <section  className="bg-[#F9F9F9] my-10">
-      <Timer />
-    </section >
+
+      <section className="bg-[#F9F9F9] my-10">
+        <Timer />
+      </section >
       <Footer />
     </main>
 
